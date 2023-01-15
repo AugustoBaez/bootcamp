@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  justify-content: center;
+  display: grid;
+}
+
+.data {
+  margin-top: 3%;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+
+
+.form {
+  height: 30px;
+  width: 350px;
+  background-color: whitesmoke;
+  margin-top: 5px;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+label, input {
+  display: inline-block;
+}
+label, .form {
+  text-align: left;
+}
+input {
+  float: right;
+  margin-right: 25px;
+  border-radius: 5px;
+  border-color: whitesmoke;
+  border-width: 1px;
+  height: 20px;
+}
+
+#formData {
+  text-align: center;
+}
