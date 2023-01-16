@@ -1,11 +1,11 @@
 import React from "react";
 
-const FormData = (props) => {
+const FormData = ({formData}) => {
 
-    const {firstName, lastName, email, password, confirmPassword} = props
+    const {firstName, lastName, email, password, confirmPassword} = formData
 
     return (
-        <div>
+        <div className="data">
             <p>First name: {firstName}</p>
             <p>Last name: {lastName}</p>
             <p>Email: {email}</p>
